@@ -45,7 +45,6 @@ public class Main2Activity extends AppCompatActivity {
 
             mIntent2.setAction(Intent.ACTION_SEND);
             mIntent2.setType("text/plain");
-            mIntent2.putExtra(Intent.EXTRA_TEXT, mIntent2);
             startActivity(mIntent2);
         });
     }
